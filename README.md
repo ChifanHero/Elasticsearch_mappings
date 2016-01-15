@@ -4,7 +4,7 @@ Use the settings and mappings in this repository to create an elasticsearch inde
 
 **Create index with settings example:**
 ```
-PUT http://localhost:9200/twitter/
+PUT http://<SEARCH_URL>/twitter/
     "settings" : {
         "index" : {
             "number_of_shards" : 3,
@@ -16,7 +16,7 @@ PUT http://localhost:9200/twitter/
 
 **Define mappings example:**
 ```
-PUT twitter/_mapping/user 
+PUT http://<SEARCH_URL>/twitter/_mapping/user 
 {
   "properties": {
     "name": {
@@ -25,6 +25,8 @@ PUT twitter/_mapping/user
   }
 }
 ```
+
+SEARCH_URL = http://elasticsearch.lightningorder.com
 
 elasticsearch documentation    
 https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
