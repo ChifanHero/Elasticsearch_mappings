@@ -25,3 +25,6 @@ PUT twitter/_mapping/user
   }
 }
 ```
+
+elasticsearch documentation    
+https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
