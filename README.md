@@ -2,7 +2,8 @@
 
 Use the settings and mappings in this repository to create an elasticsearch index.
 
-Create index with settings example:
+**Create index with settings example:**
+```
 PUT http://localhost:9200/twitter/
     "settings" : {
         "index" : {
@@ -11,8 +12,10 @@ PUT http://localhost:9200/twitter/
         }
     }
 }'
+```
 
-Define mappings example:
+**Define mappings example:**
+```
 PUT twitter/_mapping/user 
 {
   "properties": {
@@ -21,3 +24,4 @@ PUT twitter/_mapping/user
     }
   }
 }
+```
