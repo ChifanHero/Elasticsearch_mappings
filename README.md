@@ -13,6 +13,7 @@ PUT http://<SEARCH_URL>/twitter/
     }
 }'
 ```
+(twitter is index name)
 
 **Define mappings example:**
 ```
@@ -25,8 +26,12 @@ PUT http://<SEARCH_URL>/twitter/_mapping/user
   }
 }
 ```
+(twitter is index name)
+(user is type name)
 
 SEARCH_URL = http://elasticsearch.lightningorder.com
+Our index name: food
+Our types: dish, restaurant, list
 
 elasticsearch documentation    
 https://www.elastic.co/guide/en/elasticsearch/reference/current/docs.html
