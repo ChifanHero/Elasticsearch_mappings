@@ -48,7 +48,7 @@
          "restaurants":{
          	"type":"string"
          },
-         "locations":{
+         "center_location":{
          	"type" : "geo_point"
          }
       }
